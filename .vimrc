@@ -2,6 +2,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
+
 autocmd filetype lisp,scheme,art setlocal equalprg=scmindent.rkt
 
 " Make sure color is set to 256 then set colors
